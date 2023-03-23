@@ -14,7 +14,8 @@ var (
 
 func main() {
 	//variável de escopo local
-	var a string //variáveis locais declaras e não utilizadas geram erro.
-	b = true     //variáveis globais podem ser alteradas dentro de funções
+	a := "string" //variáveis locais declaras e não utilizadas geram erro.
+	// no go podemos usar := para declarar e atribuir um valor a uma variável com inferência de tipo automática.
+	b = true //variáveis globais podem ser alteradas dentro de funções
 	println(a)
 }
