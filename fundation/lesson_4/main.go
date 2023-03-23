@@ -1,9 +1,10 @@
 package main
 
-// constante de escopo global
+import "fmt"
+
 const a = "Hello, World!"
 
-type ID int //criando um tipo ID que é um int
+type ID int
 
 var (
 	b bool = true
@@ -14,7 +15,5 @@ var (
 )
 
 func main() {
-	a := "string"
-	b = true
-	println(a)
+	fmt.Printf("O tipo de E é %T", f)
 }
