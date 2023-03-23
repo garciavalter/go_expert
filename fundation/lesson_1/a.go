@@ -1,3 +1,3 @@
-package main
+package lesson_1
 
-const a = "Hello, World! ! !"
+const a = "Hello, World!"
