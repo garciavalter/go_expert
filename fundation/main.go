@@ -14,7 +14,7 @@ var (
 
 func main() {
 	//variável de escopo local
-	var a string
-	b = true
+	var a string //variáveis locais declaras e não utilizadas geram erro.
+	b = true     //variáveis globais podem ser alteradas dentro de funções
 	println(a)
 }
