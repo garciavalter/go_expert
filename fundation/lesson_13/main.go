@@ -14,7 +14,6 @@ type Endereco struct {
 func (c Cliente) Desativar() {
 	c.Ativo = false
 	fmt.Printf("O cliente %s foi desativado, ativo: %t", c.Nome, c.Ativo)
-
 }
 
 type Cliente struct {
