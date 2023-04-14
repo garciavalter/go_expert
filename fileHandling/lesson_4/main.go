@@ -6,6 +6,7 @@ import (
 )
 
 // Uso de tags para json
+// Similar a decorators
 type Conta struct {
 	Numero int `json:"n"`
 	Saldo  int `json:"s"`
