@@ -12,6 +12,8 @@ func main() {
 	bookHotel(ctx)
 }
 
+// por convenção as variáveis de contexto sempre são o primeiro
+// parametro nas funções.
 func bookHotel(ctx context.Context) {
 	token := ctx.Value("token")
 	fmt.Println(token)
